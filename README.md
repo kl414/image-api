@@ -4,3 +4,4 @@
  - DTO layer omitted since it only involve one entity
  - No exception handling or mapping
  - Simplified param validation and response annotations
+ - No tests
