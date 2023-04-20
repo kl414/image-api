@@ -19,7 +19,7 @@ public class ImageService {
     }
 
     public List<Image> find(List<String> objects){
-        if(objects == null || objects.isEmpty())
+        if(objects == null)
             return findAll();
         else
             return findByObjects(objects);
